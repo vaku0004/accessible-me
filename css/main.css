@@ -20,7 +20,8 @@ h6 {
 
 h1 {
   font-size: 4rem;
-  padding-bottom: 10px;
+  padding-bottom: 10px; 
+  line-height: 50px;
 }
 
 h2 {
