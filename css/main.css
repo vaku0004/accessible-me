@@ -121,9 +121,10 @@ footer {
   padding-top: 20px;
 }
 
-.skipmaincontent,
-.skipaddress,
-.skipcontact
+.maincontent,
+.address,
+.ontact
 {
- display: block;
+ display: inline-block;
+ justify-content: space-around;
 }
