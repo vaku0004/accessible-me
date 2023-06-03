@@ -120,11 +120,3 @@ footer {
 .site-header {
   padding-top: 20px;
 }
-
-.maincontent,
-.address,
-.ontact
-{
- display: inline-block;
- justify-content: space-around;
-}
