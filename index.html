@@ -13,7 +13,10 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="container">
+  <a href="#maincontent">Skip to content</a>
+  <a href="#address">Skip to address</a>
+  <a href="#contact">Skip to contact</a>
+  <div class="container" id="maincontent">
     <header class="site-header" role="banner">
       <h1 role="heading">Jam Box Studios</h1>
       <nav class="main-nav" role="navigation" aria-label="Main Navigation">
@@ -26,7 +29,7 @@
       </nav>
       <img src="https://placekitten.com/1200/900" class="banner" alt="jam box banner">
     </header>
-    <main class="main-content"  role="main" aria-label="Main Content">
+    <main class="main-content"  role="main" aria-label="Main Content" id="maincontent">
       <h2 id="products">Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
@@ -41,12 +44,12 @@
         <h3 id="studio">Address</h3>
         <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
           <span itemprop="name">Jambox Studios,</span>
-          <span itemprop="streetAddress">123 Guitar Road,</span>
+          <span itemprop="streetAddress" id="address">123 Guitar Road,</span>
           <span itemprop="addressLocality">Musicville, Danceistan</span>
           <span itemprop="postalCode">B3T 0L0</span>
         </p>
       </section>
-      <section class="contact-section" role="region" aria-label="Contact Form">
+      <section class="contact-section" role="region" aria-label="Contact Form" id="contact">
         <h3>Contact Us</h3>
         <form action="thanks.html">
           <label>Full Name</label>

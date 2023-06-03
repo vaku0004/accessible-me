@@ -117,3 +117,13 @@ footer {
   font-size: 1rem;
 }
 
+.site-header {
+  padding-top: 20px;
+}
+
+.skipmaincontent,
+.skipaddress,
+.skipcontact
+{
+ display: block;
+}
